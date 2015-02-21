@@ -40,8 +40,6 @@ function! s:normalize(v)
   return s:scale(1/s:vlen(a:v), a:v)
 endfunction
 
-echo s:normalize(a)
-
 let s:width = 256
 let s:height = 256
 
